@@ -7,7 +7,7 @@ This [R](http://r-project.org) script scrapes and flattens blockchain variable d
 
 # Before running script:
 1. Make sure you enter your working directory at  
- `setwd("/your/path/here")`
+ `setwd("/your/path/here")`  
 and preferred R repo in  
  `R_repo <- "http://your/R/repo/"`
 
