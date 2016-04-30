@@ -1,6 +1,3 @@
-library(RJSONIO)
-library(data.table)
-library(pbapply)
 
 #### set path
 setwd("/your/path/here")
