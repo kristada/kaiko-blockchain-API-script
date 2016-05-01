@@ -6,7 +6,7 @@ setwd("/your/path/here")
 #R_repo <- "http://cran.csiro.au/"
 R_repo <- "http://your/R/repo/"
 
-libs <- list("RJSONIO", "data.table", "pbapply")
+libs <- list("RJSONIO", "data.table", "pbapply", "plyr")
 
 invisible(lapply(libs, function(x){
         result <- library(x, logical.return=T, character.only =T)
